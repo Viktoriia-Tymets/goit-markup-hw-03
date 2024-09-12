@@ -60,7 +60,7 @@ h1,h2,h3,h4,h5,h6,p{
 }
 
 .nav-list{
-    display: flex;
+    display:flex;
     align-items: center;
     gap:40px;
 }
@@ -72,12 +72,22 @@ h1,h2,h3,h4,h5,h6,p{
         line-height: 1.5;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        display: block;
+        padding: 24px 0;
 
 }
+
+.address{
+font-style: normal;
+margin-left: auto;
+}
+
 
 .contact-list{
     display: flex;
     align-items: center;
+    gap: 40px;
+    
 }
 
 .contacts{
@@ -88,8 +98,8 @@ h1,h2,h3,h4,h5,h6,p{
         letter-spacing: 0.02em;
         color: #434455;
         font-style: normal;
-        
-        
+        display: block;
+        padding: 24px 0;     
 }
 
 
@@ -107,6 +117,8 @@ color: #404bbf;
 
 .main-page-container{
         background: #2e2f42;
+        height: 600px;
+
 
 }
 
@@ -118,6 +130,8 @@ color: #404bbf;
         letter-spacing: 0.02em;
         text-align: center;
         color: #fff;
+        padding: 188px 292px;
+      
 }
 
 .main-page-btn{
@@ -128,6 +142,13 @@ color: #404bbf;
     cursor: pointer;
     font-weight: 500;
         background: #4d5ae5;
+width: 169px;
+    margin-right: auto;
+    margin-left:auto;
+
+  
+  
+    
 }
 
 .main-page-btn:hover,
