@@ -117,7 +117,6 @@ color: #404bbf;
 
 .main-page-container{
         background: #2e2f42;
-        height: 600px;
         padding: 188px 0 188px;
 
 
@@ -278,7 +277,8 @@ align-items: center;
 }
 
 .portfolio-img{
-    display: block
+
+
 }
 
 .descr{
@@ -295,7 +295,8 @@ align-items: center;
     letter-spacing: 0.02em;
     color:#2e2f42;
  padding-top: 32px; 
- padding-bottom: 120px;
+margin-bottom: 8px;
+
 
 
 }
@@ -304,6 +305,7 @@ align-items: center;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color:#434455;
+    font-size: 16px;
 }
 
 
