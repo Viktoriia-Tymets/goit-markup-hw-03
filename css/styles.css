@@ -118,7 +118,7 @@ color: #404bbf;
 .main-page-container{
         background: #2e2f42;
         height: 600px;
-        padding: 188px 0;
+        padding: 188px 0 188px;
 
 
 }
@@ -252,6 +252,9 @@ color:#434455;
 margin-top: 8px;
 }
 
+.works{
+    padding: 120px 0 120px 0;
+}
 
 .portfolio-title{
 font-size: 36px;
@@ -269,8 +272,8 @@ margin-bottom: 72px;
 display: flex;
 align-items: center;
  flex-wrap: wrap;  
-  row-gap: 24px;
-   column-gap: 48px;
+  row-gap: 48px;
+   column-gap: 24px;
  width: calc((100%-72px)/3);
 }
 
@@ -278,6 +281,12 @@ align-items: center;
     display: block
 }
 
+.descr{
+    padding: 32px 16px;
+    border: 1px solid #e7e9fc;
+    border-top: none;
+    margin-bottom: 8px;
+}
 
 .portfolio-list{
     font-weight: 500;
