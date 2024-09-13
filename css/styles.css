@@ -201,11 +201,24 @@ width: calc((100%-72px)/4);
     text-transform: capitalize;
     color:#2e2f42;
     padding-top: 120px;
+    margin-bottom: 72px;
     
 }
 
+.team-card{
+gap: 24px;
+display:flex;
+padding-bottom: 120px;
+
+}
+
+.team-nickname{
+margin:32px 16px;
+border-radius: 0 0 4px 4px;
+text-align: center;
 
 
+}
 
 .team-inf{
     background-color: #FFFFFF;
@@ -217,6 +230,8 @@ font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color:#2e2f42;
+width: calc((100%-72px)/4);
+gap:24px;
 }
 
 .profession{
@@ -224,6 +239,7 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color:#434455;
+margin-top: 8px;
 }
 
 
@@ -234,14 +250,35 @@ text-align: center;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color:#2e2f42;
+padding-top: 120px;
+margin-bottom: 72px;
 }
 
+
+.portfolio{
+display: flex;
+align-items: center;
+ flex-wrap: wrap;  
+  row-gap: 24px;
+   column-gap: 48px;
+ width: calc((100%-72px)/3);
+}
+
+.portfolio-img{
+
+
+
+}
 .portfolio-list{
     font-weight: 500;
     font-size: 20px;
     line-height: 1.2;
     letter-spacing: 0.02em;
     color:#2e2f42;
+ padding-top: 32px; 
+ padding-bottom: 120px;
+
+
 }
 
 .portfolio-desc{
@@ -253,6 +290,7 @@ color:#2e2f42;
 
 .footer{
     background-color:#2e2f42;
+    border-bottom: 312px solid #2e2f42;
 }
 
 .logo-bottom{
@@ -263,10 +301,13 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#4d5ae5;
+padding: 100px 0;
 }
 
 .logo-2{
     color: #f4f4fd;  
+    padding-top: 100px;
+    width: 115px;
 }
 
 .footer-text{
