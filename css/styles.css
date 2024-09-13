@@ -162,11 +162,14 @@ border-radius: 4px;
 .main-page-btn:focus{
     background-color: #404BBF;
 }
-
+.benefits{
+   display: flex;
+        gap: 24px; 
+        padding: 120px 0;
+}
 .benefits-list{
     margin: 120px 0;
-    display: flex;
-        gap: 24px;
+    
 }
 
 .benefits-title{
@@ -176,6 +179,7 @@ border-radius: 4px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
 }
 
 .benefits-text{
@@ -297,6 +301,7 @@ align-items: center;
 .footer{
     background-color:#2e2f42;
     border-bottom: 312px solid #2e2f42;
+    padding: 100px 0;
 }
 
 .logo-bottom{
@@ -307,7 +312,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color:#4d5ae5;
-padding: 100px 0;
+display: inline-block;
+margin-bottom: 16px;
+
 }
 
 .logo-2{
