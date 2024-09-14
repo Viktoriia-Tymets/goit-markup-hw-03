@@ -162,6 +162,10 @@ border-radius: 4px;
     background-color: #404BBF;
 }
 
+.benefits{
+    padding: 120px 0 120px;
+}
+
 
 .benefits-list{
     margin: 120px 0;
