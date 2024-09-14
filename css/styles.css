@@ -298,7 +298,7 @@ align-items: center;
  flex-wrap: wrap;  
   row-gap: 48px;
    column-gap: 24px;
-
+width: calc((100% - 48px) / 3);
 }
 
 .list{
