@@ -161,13 +161,12 @@ border-radius: 4px;
 .main-page-btn:focus{
     background-color: #404BBF;
 }
-.benefits{
-   display: flex;
-        gap: 24px; 
-        padding: 120px 0;
-}
+
+
 .benefits-list{
     margin: 120px 0;
+    display: flex;
+    gap: 24px;
     
 }
 
@@ -178,6 +177,8 @@ border-radius: 4px;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
+        margin-bottom: 8px;
+        width: calc((100% - 72px) / 4);
         margin-bottom: 8px;
 }
 
@@ -296,10 +297,9 @@ align-items: center;
     color:#2e2f42;
  padding-top: 32px; 
 margin-bottom: 8px;
-
-
-
 }
+
+
 
 .portfolio-desc{
     line-height: 1.5;
