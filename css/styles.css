@@ -192,6 +192,9 @@ position: absolute;
     overflow: hidden;
     clip: rect(0, 0, 0, 0);
     border: 0;
+    clip-path: inset(100%);
+    white-space: nowrap;
+
 }
 
 .benefits-text{
@@ -291,11 +294,11 @@ align-items: center;
 }
 
 .list{
-
+width: calc((100% - 48px) / 3);
 }
 
 .portfolio-img{
-   width: calc((100% - 48px) / 3) 
+   width: calc((100% - 48px) / 3); 
 }
 
 .descr{
