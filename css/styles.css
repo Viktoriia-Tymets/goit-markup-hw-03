@@ -166,12 +166,27 @@ border-radius: 4px;
     padding: 120px 0 120px;
 }
 
+.visually-hidden{
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            margin: -1px;
+            padding: 0;
+            overflow: hidden;
+            clip: rect(0, 0, 0, 0);
+            border: 0;
+        
+}
 
 .benefits-list{
     margin: 120px 0;
     display: flex;
     gap: 24px;
     
+}
+
+.main-ben{
+    width: calc((100% - 72px) / 4);
 }
 
 .benefits-title{
@@ -182,8 +197,7 @@ border-radius: 4px;
         letter-spacing: 0.02em;
         color: #2e2f42;
         margin-bottom: 8px;
-        width: calc((100% - 72px) / 4);
-        margin-bottom: 8px;
+    
 }
 
 .benefits-text{
