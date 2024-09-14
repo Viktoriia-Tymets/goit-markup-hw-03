@@ -328,7 +328,6 @@ margin-bottom: 8px;
 
 .footer{
     background-color:#2e2f42;
-    border-bottom: 312px solid #2e2f42;
     padding: 100px 0;
 }
 
@@ -348,7 +347,7 @@ margin-bottom: 16px;
 .logo-2{
     color: #f4f4fd;  
     padding-top: 100px;
-    width: 115px;
+  
 }
 
 .footer-text{
